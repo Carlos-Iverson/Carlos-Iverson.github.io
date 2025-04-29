@@ -6,72 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
-    <title>仿 B 站页面</title>
+    <title>林煦伦的个人网站</title>
 </head>
 
-<body class="bg-gray-100">
-    <!-- 导航栏 -->
-    <header class="bg-white shadow-md">
-        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold text-blue-600">仿 B 站</a>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600">首页</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600">番剧</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600">动画</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600">影视</a></li>
-                </ul>
-            </nav>
-            <div class="flex items-center space-x-2">
-                <input type="text" placeholder="搜索视频"
-                    class="border border-gray-300 rounded-md px-3 py-1 focus:outline-none focus:ring-blue-600 focus:border-blue-600">
-                <button class="bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700">搜索</button>
-            </div>
+<body class="bg-gray-100 font-sans text-gray-800">
+    <div class="container mx-auto p-8">
+        <div class="bg-white rounded-lg shadow-md p-12">
+            <h1 class="text-3xl font-bold mb-4">我叫林煦伦，这是我的第一个网站</h1>
+            <p class="text-lg mb-6">以下是我喜欢的电影</p>
+            <ul class="list-disc pl-6">
+                <li class="mb-3 text-lg">
+                    <a href="https://movie.douban.com/subject/1292063/" class="text-blue-600 hover:text-blue-800 hover:underline">搏击俱乐部</a>
+                </li>
+                <li class="mb-3 text-lg">
+                    <a href="https://movie.douban.com/subject/3215762/" class="text-blue-600 hover:text-blue-800 hover:underline">社交网络</a>
+                </li>
+                <li class="text-lg">
+                    <a href="https://movie.douban.com/subject/10493390/" class="text-blue-600 hover:text-blue-800 hover:underline">狂怒</a>
+                </li>
+            </ul>
+            <p class="text-lg mt-6 mb-6">以下是我喜欢的游戏</p>
+            <ul class="list-disc pl-6">
+                <li class="mb-3 text-lg">
+                    <a href="https://movie.douban.com/subject/2051149/" class="text-blue-600 hover:text-blue-800 hover:underline">生化危机系列</a>
+                </li>
+                <li class="mb-3 text-lg">
+                    <a href="https://movie.douban.com/subject/26712682/" class="text-blue-600 hover:text-blue-800 hover:underline">赛博朋克2077</a>
+                </li>
+                <li class="text-lg">
+                    <a href="https://movie.douban.com/subject/25713674/" class="text-blue-600 hover:text-blue-800 hover:underline">最后的生还者</a>
+                </li>
+            </ul>
         </div>
-    </header>
-
-    <!-- 主体内容 -->
-    <main class="container mx-auto px-4 py-6">
-        <h2 class="text-2xl font-bold mb-4">热门视频</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            <!-- 视频卡片 -->
-            <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="https://picsum.photos/300/200" alt="视频封面" class="w-full h-40 object-cover">
-                <div class="p-4">
-                    <h3 class="text-lg font-semibold mb-2">精彩视频标题 1</h3>
-                    <p class="text-gray-600 text-sm">这是一段精彩视频的简介...</p>
-                </div>
-            </div>
-            <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="https://picsum.photos/300/200" alt="视频封面" class="w-full h-40 object-cover">
-                <div class="p-4">
-                    <h3 class="text-lg font-semibold mb-2">精彩视频标题 2</h3>
-                    <p class="text-gray-600 text-sm">这是另一段精彩视频的简介...</p>
-                </div>
-            </div>
-            <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="https://picsum.photos/300/200" alt="视频封面" class="w-full h-40 object-cover">
-                <div class="p-4">
-                    <h3 class="text-lg font-semibold mb-2">精彩视频标题 3</h3>
-                    <p class="text-gray-600 text-sm">这又是一段精彩视频的简介...</p>
-                </div>
-            </div>
-            <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="https://picsum.photos/300/200" alt="视频封面" class="w-full h-40 object-cover">
-                <div class="p-4">
-                    <h3 class="text-lg font-semibold mb-2">精彩视频标题 4</h3>
-                    <p class="text-gray-600 text-sm">这还是一段精彩视频的简介...</p>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <!-- 页脚 -->
-    <footer class="bg-white shadow-md">
-        <div class="container mx-auto px-4 py-4 text-center text-gray-600">
-            © 2025 仿 B 站版权所有
-        </div>
-    </footer>
+    </div>
 </body>
 
-</html>    
+</html>
+    
